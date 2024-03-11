@@ -12,3 +12,27 @@
 .cross-center{
     align-items: center;
 }
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.x-left{
+    justify-content: left;
+}
+
+.x-right{
+    justify-content: right;
+}
+
+.end{
+    justify-content: end;
+}
+/* CUSTOM PROPERTIES */
+/* height */
+:root{
+    --headerheight: 60px;
+    --notifyheight: 70px;
+    --searchbarheight:20px;
+}
