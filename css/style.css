@@ -104,8 +104,34 @@ header{
     margin-left: 5px;
     color: white;
 }
+
 .notifications-icon :last-child{
     color: var(--notifyblue);
+}
+
+/* SEARCH-CHAT */
+.search-contact {
+    background-color: var(--headergrey);
+    padding: 5px 10px;
+    position: relative;
+}
+#search{
+    width: 100%;
+    border: hidden;
+    padding: 5px;
+}
+.search-contact span{
+    color: var(--iconsgrey);
+}
+
+.search-contact:before {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    font-size: 0.8rem;
+    color: var(--iconsgrey);
+    top: 11px;
+    left: 20px;
 }
 /* CONTACTS */
 .all-contact{

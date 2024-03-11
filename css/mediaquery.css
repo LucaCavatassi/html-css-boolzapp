@@ -22,15 +22,16 @@
         justify-content: center;
     }
 
+    /* NOTIFICATIONS */
+    .nav .notifications{
+        display: none;
+    }
+    
     /* SEARCH */
     .search-contact{
         display: none;
     }
 
-    /* NOTIFICATIONS */
-    .nav .notifications{
-        display: none;
-    }
 
     /***************** RIGHT *******************/
     /* CHAT */
