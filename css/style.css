@@ -197,9 +197,21 @@ header{
 
 .message{
     width: 70%;
-    padding: 1rem;
-    padding-bottom: 2.5rem;
+    padding: 1.2rem 2rem 2.5rem 1.2rem;
     border-radius: 20px;
+    position: relative;
+}
+
+.message-options{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.message-time{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 .sent .message{
