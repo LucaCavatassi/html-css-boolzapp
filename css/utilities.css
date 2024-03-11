@@ -54,9 +54,20 @@
 .icongrey{
     color: var(--iconsgrey);
 }
+.typing-icons-grey{
+    color: var(--typingiconsgrey);
+}
 
 
 /* sizes */
-.smallerfont{
+.smallfont{
     font-size: 0.8rem;
+}
+
+.smallerfont{
+    font-size: 0.7rem;
+}
+
+.p-y-2{
+    padding: 2px 0;
 }
