@@ -40,25 +40,17 @@ h4{
 .container{
     width: 80%;
     height: 95vh;
-
-    /* debug */
-    background-color: blue;
 }
 
 .nav{
     height: 100%;
     width: 30%;
-
-    /* debug */
-    background-color: coral;
+    background-color: white;
 }
 
 .chat-ui{
     height: 95vh;
     width: 70%;
-
-    /* debug */
-    background-color:  red;
 }
 
 
@@ -135,14 +127,23 @@ header{
 }
 /* CONTACTS */
 .all-contact{
-    height: calc(95vh - var(--headerheight) - var(--notifyheight) - var(--searchbarheight));
+    height: calc(95vh - var(--headerheight) - var(--notifyheight) - var(--searchbarheight) - var(--inputbarheight));
     overflow: auto;
 }
 
-.contact{
-    height: 60px;
-    /* debug */
-    border: 5px solid black;
+.contact-card{
+    height: calc(100% / 8);
+    display: flex;
+    align-items: center;
+    line-height: 1rem;
+    border-bottom: 1px solid var(--headergrey);
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    top: 18px;
+    right: 10px;
 }
 
 /***************** RIGHT *******************/
@@ -170,7 +171,6 @@ header{
 
 .contact-photo{
     height: 100%;
-    border-left: 1px solid var(--iconsgrey);
 }
 
 .contact-photo img{
@@ -188,6 +188,7 @@ header{
     padding: 2rem 3.5rem;
     flex-grow: 1;
     overflow: auto;
+    background-image: url(../img/mine.jpg);
 }
 
 .sent , .incoming{
@@ -196,10 +197,15 @@ header{
 
 .message{
     width: 70%;
-
-    /* debug */
-    border: 5px solid white;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    border-radius: 20px;
 }
 
+.sent .message{
+    background-color: var(--messagegreen);
+}
 
-
+.incoming .message{
+    background-color: white;
+}

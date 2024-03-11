@@ -26,12 +26,20 @@
     .nav .notifications{
         display: none;
     }
-    
+
     /* SEARCH */
     .search-contact{
         display: none;
     }
 
+    /* CONTACTS */
+    .contact-preview{
+        justify-content: center;
+    }
+
+    .message-preview{
+        display: none;
+    }
 
     /***************** RIGHT *******************/
     /* CHAT */
@@ -40,7 +48,7 @@
     }
 
     .all-contact{
-        height: 91vh;
+        height: calc(100vh - var(--headerheight) - var(--inputbarheight)); 
     }
     
     .messages{
