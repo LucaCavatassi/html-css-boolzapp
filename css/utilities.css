@@ -1,0 +1,14 @@
+/* UTILITIES */
+
+/* layout */
+.flex{
+    display: flex;
+}
+
+.main-center{
+    justify-content: center;
+}
+
+.cross-center{
+    align-items: center;
+}

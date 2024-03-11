@@ -5,3 +5,35 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+/* layout */
+main{
+    height: 100vh;
+
+    /* debug */
+    background-color: green;
+}
+
+.container{
+    width: 80%;
+    height: 93vh;
+
+    /* debug */
+    background-color: blue;
+}
+
+.nav{
+    height: 100%;
+    width: 30%;
+
+    /* debug */
+    border: 8px solid coral;
+}
+
+.chat{
+    height: 100%;
+    width: 70%;
+
+    /* debug */
+    border: 8px solid red;
+}
