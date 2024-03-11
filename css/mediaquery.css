@@ -53,6 +53,7 @@
     
     .messages{
         height: calc(100vh - 120px);
+        padding: 1rem 1rem;
     }
 }
 
@@ -70,5 +71,17 @@
 
     .chat-ui .tool-bar{
         display: none;
+    }
+
+    .message{
+        width: 80%;
+    }
+
+    .emoji , .audio-message{
+        display: none;
+    }
+
+    #type{
+        width: 90%;
     }
 }
