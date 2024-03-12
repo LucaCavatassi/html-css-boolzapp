@@ -286,6 +286,10 @@ header{
     background-color: var(--headergrey);
 }
 
+.typing button{
+    background-color: var(--headergrey);
+}
+
 .typing i{
     color: var(--typingiconsgrey);
     font-size: 1.5rem;
