@@ -11,8 +11,7 @@
     /****************** LEFT *****************/
     /* NAV */
     .nav{
-        width: 10%;
-        min-width: 75px;
+        width: 100px;
     }
 
     .nav .tool-bar{
@@ -45,15 +44,15 @@
     /***************** RIGHT *******************/
     /* CHAT */
     .chat-ui{
-        width: 90%;
+        width: calc(100% - 80px);
     }
 
     .all-contact{
-        height: calc(100vh - var(--headerheight) - var(--inputbarheight)); 
+        height: calc(100% - var(--headerheight) - var(--inputbarheight)); 
     }
     
     .messages{
-        height: calc(100vh - 120px);
+        height: calc(100% - 120px);
         padding: 1rem 1rem;
     }
 }

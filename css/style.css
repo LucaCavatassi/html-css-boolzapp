@@ -36,23 +36,26 @@ input{
 /* layout */
 .webapp{
     height: 100vh;
+    width: 100%;
     background: linear-gradient(180deg, #009688 20%, #D9DBD5 20%);
 }
 
 .container{
     width: 80%;
-    height: 95vh;
+    height: 95%;
+    max-width: 1300px;
+    max-height: 1000px;
 }
 
 .nav{
     height: 100%;
-    width: 30%;
+    width: 300px;
     background-color: white;
 }
 
 .chat-ui{
-    height: 95vh;
-    width: 70%;
+    height: 100%;
+    width: calc(100% - 300px);
 }
 
 
@@ -128,8 +131,11 @@ header{
     left: 20px;
 }
 /* CONTACTS */
+main{
+    height: 100%;
+}
 .all-contact{
-    height: calc(95vh - var(--headerheight) - var(--notifyheight) - var(--searchbarheight) - var(--inputbarheight));
+    height: calc(100% - var(--headerheight) - var(--notifyheight) - var(--searchbarheight) - var(--inputbarheight));
     overflow: auto;
 }
 
@@ -186,7 +192,7 @@ header{
 
 /* MESSAGES */
 .messages{
-    height: calc(95vh - 120px);
+    height: calc(100% - 120px);
     padding: 1.5rem 2rem;
     flex-grow: 1;
     overflow: auto;
