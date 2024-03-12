@@ -33,6 +33,10 @@
     }
 
     /* CONTACTS */
+
+    .all-contact{
+        width: 100px;
+    }
     .contact-preview{
         justify-content: center;
     }

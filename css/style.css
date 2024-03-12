@@ -136,6 +136,7 @@ main{
 }
 .all-contact{
     height: calc(100% - var(--headerheight) - var(--notifyheight) - var(--searchbarheight) - var(--inputbarheight));
+    width: 300px;
     overflow: auto;
 }
 
