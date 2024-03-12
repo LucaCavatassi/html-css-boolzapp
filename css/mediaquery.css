@@ -11,7 +11,11 @@
     /****************** LEFT *****************/
     /* NAV */
     .nav{
-        width: 100px;
+        width: 80px;
+    }
+
+    .nav main{
+        height: 100%;
     }
 
     .nav .tool-bar{
@@ -33,9 +37,12 @@
     }
 
     /* CONTACTS */
+    .contact-card{
+        justify-content: center;
+    }
 
     .all-contact{
-        width: 100px;
+        width: 80px;
     }
     .contact-preview{
         justify-content: center;

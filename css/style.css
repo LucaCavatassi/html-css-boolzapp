@@ -131,11 +131,15 @@ header{
     left: 20px;
 }
 /* CONTACTS */
-main{
-    height: 100%;
+.nav main{
+    height: calc(100% - var(--headerheight) - var(--notifyheight));
+} 
+
+.chat-ui main{
+    height: calc(100% - var(--inputbarheight));
 }
 .all-contact{
-    height: calc(100% - var(--headerheight) - var(--notifyheight) - var(--searchbarheight) - var(--inputbarheight));
+    height: calc(100% - var(--searchbarheight) - var(--inputbarheight));
     width: 300px;
     overflow: auto;
 }
@@ -160,6 +164,8 @@ main{
 /* layout */
 .chat{
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .typing{
@@ -193,9 +199,9 @@ main{
 
 /* MESSAGES */
 .messages{
+    flex-grow: 1;
     height: calc(100% - 120px);
     padding: 1.5rem 2rem;
-    flex-grow: 1;
     overflow: auto;
     background-image: url(../img/mine.jpg);
 }
