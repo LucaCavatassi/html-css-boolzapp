@@ -21,7 +21,10 @@
 <body>
     <main class="webapp flex main-center cross-center">
         <div class="container flex">
+
+            <!-- *******LEFT******* -->
             <div class="nav">
+                <!-- HEADER -->
                 <header>
                     <div class="user-photo">
                         <img src="./img/avatar_io.jpg" alt="user-avatar">
@@ -40,6 +43,9 @@
                         </ul>
                     </div>
                 </header>
+                <!-- /HEADER -->
+
+                <!-- NOTIFICATIONS -->
                 <div class="notifications smallfont flex cross-center">
                     <div class="notifications-icon fa-stack fa-2x">
                         <i class="fa-solid fa-circle fa-stack-2x"></i>
@@ -50,6 +56,9 @@
                         <a class="typing-icons-grey smallerfont" href="">Attiva notifiche desktop</a>
                     </div>
                 </div>
+                <!-- /NOTIFICATIONS -->
+
+                <!-- CONTACTS -->
                 <main>
                     <div class="search-contact">
                         <input aria-label="search" id="search" type="text" placeholder="Cerca o inizia una nuova chat">
@@ -157,8 +166,14 @@
                         </div>
                     </div>
                 </main>
+                <!-- /CONTACTS -->
             </div>
+            <!-- *******/LEFT******* -->
+
+            <!-- *******RIGHT******* -->
             <div class="chat-ui">
+
+                <!-- HEADER -->
                 <header>
                     <div class="contact-info">
                         <div class="contact-photo">
@@ -167,7 +182,6 @@
                         <div class="last-seen smallfont">
                             <h4 class="p-y-2">Michele</h4>
                             <span class="typing-icons-grey smallerfont">Ultimo accesso oggi alle 16:45</span>
-
                         </div>
                     </div>
                     <div class="tool-bar">
@@ -184,8 +198,12 @@
                         </ul>
                     </div>
                 </header>
+                <!-- /HEADER -->
+
+                <!-- CHAT -->
                 <main>
                     <div class="chat">
+                        <!-- MESSAGES -->
                         <div class="messages">
                             <div class="sent flex x-right">
                                 <div class="message">
@@ -214,6 +232,9 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- /MESSAGES -->
+
+                        <!-- TYPING -->
                         <div class="typing ">
                             <div class="emoji">
                                 <a href=""><i class="fa-regular fa-face-smile"></i></a>
@@ -223,9 +244,12 @@
                                 <i class="fa-solid fa-microphone"></i>
                             </div>
                         </div>
+                        <!-- /TYPING -->
                     </div>
                 </main>
+                <!-- /CHAT -->
             </div>
+            <!-- *******/RIGHT******* -->
         </div>
     </main>
 </body>

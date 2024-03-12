@@ -12,6 +12,7 @@
     /* NAV */
     .nav{
         width: 10%;
+        min-width: 75px;
     }
 
     .nav .tool-bar{
